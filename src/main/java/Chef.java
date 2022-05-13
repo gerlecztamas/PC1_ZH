@@ -8,6 +8,7 @@ public class Chef {
     public static ArrayList<String[]> recipes = new ArrayList<>();
 
     public void newRecipe(String recipe){
+
         String[] fogas = new String[2];
         fogas[0]=recipe;
         fogas[1]="0";
@@ -15,6 +16,7 @@ public class Chef {
     }
 
     public void removeRecipe(String recipe){
+
         for (int i = 0; i < recipes.size(); i++) {
             if(Objects.equals(recipes.get(i)[0], recipe))
             {
@@ -24,6 +26,7 @@ public class Chef {
     }
 
     public String getMenu(){
+
         String result = "";
         if(recipes.size() != 0){
             for(int i = 0; i < recipes.size(); i++){
@@ -37,6 +40,7 @@ public class Chef {
                 }
             }
         }
+
         return result;
     }
 }
