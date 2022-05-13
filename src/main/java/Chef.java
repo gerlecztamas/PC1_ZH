@@ -8,10 +8,10 @@ public class Chef {
     public static ArrayList<String[]> recipes = new ArrayList<>();
 
     public void newRecipe(String recipe){
-        String[] food = new String[2];
-        food[0]=recipe;
-        food[1]="0";
-        recipes.add(food);
+        String[] fogas = new String[2];
+        fogas[0]=recipe;
+        fogas[1]="0";
+        recipes.add(fogas);
     }
 
     public void removeRecipe(String recipe){
