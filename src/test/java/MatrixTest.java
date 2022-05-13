@@ -24,8 +24,7 @@ public class MatrixTest {
 
         assertEquals(3, Matrix.countNumbersDivisibleBySeven(matrix));
     }
-    /*
-    */
+
 
     // TODO: Uncomment testcase to test columnsWithMax method.
 
@@ -46,6 +45,5 @@ public class MatrixTest {
         assertTrue(actual.contains(2));
         assertTrue(actual.contains(4));
     }
-    /*
-    */
+
 }
