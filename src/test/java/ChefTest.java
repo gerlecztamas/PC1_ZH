@@ -6,7 +6,7 @@ import static org.junit.Assert.assertTrue;
 public class ChefTest {
 
     // TODO: Uncomment testcase to test newRecipe method.
-    /*
+
     @Test
     public void testNewRecipe() {
         Chef chef = new Chef();
@@ -20,10 +20,10 @@ public class ChefTest {
         chef.newRecipe(recipeName2);
         assertEquals(recipeName1 + " 0\r\n" + recipeName2 + " 0", chef.getMenu());
     }
-    */
+
 
     // TODO: Uncomment testcase to test removeRecipe method.
-    /*
+
     @Test
     public void testRemoveRecipe() {
         Chef chef = new Chef();
@@ -37,10 +37,10 @@ public class ChefTest {
         chef.removeRecipe(recipeName1);
         assertEquals(recipeName2 + " 0", chef.getMenu());
     }
-    */
+
 
     // TODO: Uncomment testcase to test modifyPrice method.
-    /*
+
     @Test
     public void testWaiter() {
         Waiter waiter = new Waiter();
@@ -58,5 +58,5 @@ public class ChefTest {
         waiter.modifyPrice(recipeName2, price2);
         assertEquals(recipeName1 + " " + price1 + "\r\n" + recipeName2 + " " + price2, waiter.getMenu());
     }
-    */
+
 }

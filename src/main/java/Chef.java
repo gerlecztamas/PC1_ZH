@@ -10,7 +10,7 @@ public class Chef {
     public void newRecipe(String recipe){
         String[] food = new String[2];
         food[0]=recipe;
-        food[1]=" -";
+        food[1]="0";
         recipes.add(food);
     }
 
